@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hmuskan's Website</title>
+</head>
+
+<body>
+  
+  <header>
+    <h1>Hmuskan's Website</h1>
+    <p>Welcome to our website!</p>
+    <nav>
+      <a href="#myCanvas">Canvas</a>
+      <a href="#about">About</a>
+      <a href="#socials">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Welcome!</h2>
+    <pre>
+        This is the collection of all the Labs which has been done in "Web Engineering" course.
+        This is an elective course offered in final year (8th semester) of BS Computer Science in 
+        <mark>NUST Balochistan Campus</mark>.
+    </pre> <br>
+    <h3>DATE</h3>
+    <time datetime="2024-02-29">Today's date: 2024-02-29</time> <br>
+    <br><h4>Submit your Information</h4>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h4>My Audio</h4>
+    <audio  src="rain.audio.wav" controls></audio> <br>
+    <h4>My Video</h4>
+    <video src="rain_video.mp4" width="333" height="222" controls> </video> <br>
+    <br>
+    <h4 id="myCanvas">My Canvas</h4>
+    <canvas ></canvas> <br>
+    
+    <pre><h3 id="about">About</h3>
+        HTML (HyperText Markup Language) is the code that is used to structure a web page and
+        its content. For example, content could be structured within a set of paragraphs, a list
+        of bulleted points, or using images and data tables.
+    </pre>
+  </main>
+
+  <br>
+  <footer>
+    <mark>&copy; 2024 Hadeesa. All rights reserved.</mark>
+    <h4>Contact</h4>
+    <ul id="socials">
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

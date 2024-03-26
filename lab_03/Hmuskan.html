@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        /* Basic syntax and selectors */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        /* Box model */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid #007bff;
+        }
+
+        /* Layouts */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .left {
+            float: left;
+            width: 70%;
+        }
+
+        .right {
+            float: left;
+            width: 30%;
+            background-color: #eee;
+            padding: 20px;
+        }
+
+        /* Typography */
+        .important-text {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        /* Responsive design */
+        @media only screen and (max-width: 768px) {
+            .left, .right {
+                width: 100%;
+            }
+        }
+
+        /* Advanced topics - Transitions */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hmuskan's Website</h1>
+        <p>Welcome to our website!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="left">
+            <h2>Welcome!</h2>
+            <pre>
+                This is the collection of all the Labs which has been done in "Web Engineering" course.
+                This is an elective course offered in final year (8th semester) of BS Computer Science in 
+                <mark>NUST Balochistan Campus</mark>.
+            </pre> <br>
+            <p class="important-text">Important information here.</p>
+        </div>
+
+        <div class="right">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
